@@ -20,7 +20,6 @@ For an example of how to use this code, refer to the Jupyter Notebook: GP_LCCM_E
 ## Configuration
 - **Gaussian Process Kernel:** The code uses a default kernel (a dot product) from scikit-learn. You can modify the kernel settings near the top of the code as needed.
 - **EM Algorithm Settings:** Adjust tol (tolerance) and max_iter (maximum iterations) to control convergence.
-- **Initialization:** Choose between 'random' or 'kmeans' initialization for the GMM parameters (GMM_Initialization).
 
 ## Contributing
 Contributions, bug fixes, and feature suggestions are welcome. Please open an issue, submit a pull request, or feel free to contact me directly.
