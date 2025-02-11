@@ -27,7 +27,7 @@ Contributions, bug fixes, and feature suggestions are welcome. Please open an is
 ## Acknowledgements
 - **Author:** Georges Sfeir.
 - **Advising:** Filipe Rodrigues.
-- **Based On:** The latent class choice model (lccm) package and some function from the GaussianProcessClassifier class of sklearn.
+- **Based On:** The latent class choice model (lccm) package and functions from the GaussianProcessClassifier class of sklearn.
 
 ## More Information
 For more information about the GP_LCCM model see the following paper:
