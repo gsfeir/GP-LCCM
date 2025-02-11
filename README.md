@@ -4,7 +4,7 @@ This repository contains the code for estimating Gaussian Process – Latent Cla
 
 
 ## Overview
-The GBM_LCCM code: 
+The GP_LCCM code: 
 - **Processes Data:** Constructs sparse matrices from long-format data that map alternatives, observations, and decision-makers. It also allows for imposing analyst-defined choice set constraints.
 - **Class Membership Modeling via Gaussian Process:** Uses a Gaussian Process Classifier (from scikit-learn) to estimate the probability that each individual belongs to a latent class. The classifier returns both probability estimates and a log marginal likelihood.
 - **Class-Specific Choice Modeling:** Implements a weighted multinomial logit model for each latent class to model the choice behavior of individuals. It uses numerical optimization (BFGS) to update the parameters and compute standard errors.
